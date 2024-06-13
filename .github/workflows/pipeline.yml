@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - main
+name: 🚀 Deploy website on push
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ftpupload.net
+        username: ${{ secrets.VPTERUEL_42WEB_IO_FTP_USERNAME }}
+        password: ${{ secrets.VPTERUEL_42WEB_IO_FTP_PASSWORD }}
+        protocol: ftps
+        port: 21
+        server-dir: /employee-portal.vpteruel.42web.io/htdocs/
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/phpdocker/**
+          README.md
+          docker-compose.yml
+          init.sql
