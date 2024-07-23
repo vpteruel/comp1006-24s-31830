@@ -19,7 +19,8 @@ jobs:
         password: ${{ secrets.VPTERUEL_42WEB_IO_FTP_PASSWORD }}
         protocol: ftps
         port: 21
-        server-dir: /employee-portal.vpteruel.42web.io/htdocs/
+        local-dir: assignment-2/public
+        server-dir: employee-portal.vpteruel.42web.io/htdocs
         exclude: |
           **/.git*
           **/.git*/**
