@@ -1,8 +1,8 @@
 <?php
-$servername = "mysql";
-$username = "user_app";
-$password = "J5E7oPNxK9EaaozTL9YP";
-$dbname = "employee_portal_db";
+$servername = getenv('DB_SERVER') ?: 'mysql';
+$username = getenv('DB_USERNAME') ?: 'user_app';
+$password = getenv('DB_PASSWORD') ?: 'J5E7oPNxK9EaaozTL9YP';
+$dbname = getenv('DB_NAME') ?: 'employee_portal_db';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
