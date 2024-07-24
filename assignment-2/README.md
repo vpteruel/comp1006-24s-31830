@@ -163,3 +163,4 @@ This project is licensed under the MIT License.
 
 - This project uses [Bootstrap](https://getbootstrap.com/) for styling.
 - Docker configuration is inspired by [phpdocker.io](https://phpdocker.io/).
+- This project was hosted on [InfinityFree](https://www.infinityfree.com/).
