@@ -1,8 +1,8 @@
 <?php
-$servername = getenv('DB_SERVER') ?: 'mysql';
-$username = getenv('DB_USERNAME') ?: 'user_app';
-$password = getenv('DB_PASSWORD') ?: 'J5E7oPNxK9EaaozTL9YP';
-$dbname = getenv('DB_NAME') ?: 'employee_portal_db';
+$servername = getenv('DB_SERVER') ?: 'sql206.infinityfree.com';
+$username = getenv('DB_USERNAME') ?: 'if0_36254810';
+$password = getenv('DB_PASSWORD') ?: 'igKP3W6nVwS';
+$dbname = getenv('DB_NAME') ?: 'if0_36254810_employee_portal_db';
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
