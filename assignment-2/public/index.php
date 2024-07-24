@@ -24,8 +24,8 @@
                         Welcome to Employee Portal
                     </div>
                     <div class="card-body">
-                        <p>This is the employee portal where you can manage and view employee hours.</p>
-                        <p>Click on the links above to add hours or view existing records.</p>
+                        <p>This is the employee portal where you can track projects and manage other employee information.</p>
+                        <p>Click on the links above to add or view existing records.</p>
                     </div>
                 </div>
             </div>
