@@ -48,9 +48,9 @@ if (str_ends_with($currentUrl, '/form_employees.php') || str_ends_with($currentU
                             <?php echo $_SESSION['username'] ?>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="profile.php">Profile</a>
+                            <!-- <a class="dropdown-item" href="profile.php">Profile</a>
                             <a class="dropdown-item" href="settings.php">Settings</a>
-                            <div class="dropdown-divider"></div>
+                            <div class="dropdown-divider"></div> -->
                             <a class="dropdown-item" href="logout.php">Logout</a>
                         </div>
                     </li>
