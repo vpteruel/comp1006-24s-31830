@@ -44,7 +44,7 @@ assignment-2
 │   ├── sign_in.php
 │   ├── sign_up.php
 │   ├── view_employees.php
-│   ├── view_projects.php
+│   └── view_projects.php
 ├── .gitignore
 ├── docker-compose.yml
 └── init.sql
