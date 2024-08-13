@@ -32,7 +32,7 @@ $disabled = isset($_SESSION['userid']) ? '' : 'disabled';
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        View Employee
+                        View Projects
                     </div>
                     <div class="card-body">
                         <table class="table">
