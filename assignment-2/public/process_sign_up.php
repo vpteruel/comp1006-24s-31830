@@ -1,5 +1,6 @@
 <?php
 require 'db_connect.php';
+define('PASSWORD_DEFAULT', "FnrxYo8M");
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $username = $_POST['username'];
